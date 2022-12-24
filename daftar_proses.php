@@ -10,7 +10,7 @@ $password = @$_POST['tpass'];
 $password2 = @$_POST['tpass2'];
 
 if($password==$password2){ 
-    include 'index.php';
+    include 'login.php';
     echo "<script>alert('Daftar Berhasil');</script>";
     $abc = $kon->kueri("INSERT INTO user VALUES ('$id', '$nama', '$email', MD5('$password'))");
   }else{ 
