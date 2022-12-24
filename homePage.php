@@ -39,6 +39,6 @@
         </div>
         <div class="piano__keyboard"></div>
     </div>
-    <script src="js/jsku.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
