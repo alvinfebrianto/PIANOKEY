@@ -8,7 +8,7 @@ $password = @$_POST['tpass'];
 $abc = $kon->kueri("SELECT * FROM user WHERE email_user = '$email' AND pass_user = MD5('$password') ");
 $jumlah = $kon->jumlah_data($abc);
 if ($jumlah == 0) {
-	include 'index.php';
+	include 'login.php';
 	echo "<script>alert('Login Failed')</script>";
 }else{
 	$hasil = $kon->hasil_data($abc);
