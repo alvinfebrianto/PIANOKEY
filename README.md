@@ -1,1 +1,1 @@
-![pianokey](icon/pianokey.svg)
+![](icon/pianokey.svg)
